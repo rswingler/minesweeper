@@ -1,0 +1,40 @@
+.tile {
+    background-color: #bababa;
+    width: 46px;
+    height: 46px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    user-select: none;
+}
+
+.unclicked {
+    background-color: #e5e5e5 !important;
+}
+
+.face {
+    font-weight: bold;
+    align-self: center;
+}
+
+.tileicon {
+    width: 90%;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: #8a0000;
+}
+
+.handCursor {
+    cursor: pointer;
+}
+
+.targetCursor {
+    cursor: crosshair !important;
+}
